@@ -1,0 +1,249 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("../image/nkar1.jpg");
+}
+.o_1{
+    position: relative;
+    border: none;
+}
+
+
+.o_2{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,5%);
+    border: 1px outset white;
+    padding: 0px 80px 250px 80px;
+    border-radius: 15px;
+    
+    
+}
+
+
+form, .lolo_1{
+    position: relative;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+}
+.lolo_1, input{
+    width: 350px;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    
+    
+}
+form, label{
+    position: absolute;
+    top: 32%;
+    left: 5px;
+    color:  #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.lolo_1 span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+
+}
+.lolo_1 input:focus ~ label,
+.lolo_1 input:valid ~ label{
+    top: -5px;
+    color: #2691d9 ;
+
+}
+.lolo_1 input:focus ~ span::before,
+.lolo-1 input:valid ~ span::before{
+    width: 100%;
+}
+form, .lolo_2{
+    position: relative;
+    margin-top: 10px ;
+    margin-bottom: 30px;
+}
+.lolo_2, input{
+    width: 102%;
+    padding: 0px 5px;
+    height: 40px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    
+    
+}
+form, label{
+    position: absolute;
+    top: 32%;
+    left: 5px;
+    color:  #adadad;
+    transform: translateY(-50%);
+    font-size: 16px;
+    pointer-events: none;
+    transition: .5s;
+
+}
+.lolo_2-span::before{
+    content: '';
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #2691d9;
+    transition: .5s;
+
+}
+.lolo_2 input:focus ~ label,
+.lolo_2 input:valid ~ label{
+    top: -5px;
+    color: #2691d9 ;
+
+}
+.lolo_2 input:focus ~ span::before,
+.lolo-2 input:valid ~ span::before{
+    width: 100%;
+}
+h1{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #adadad;
+    margin: 48px 0px;
+}
+input[type="date"]{
+    background-color: #2691d9;
+    padding: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-71%,-49%);
+    border-radius: 5px;
+    font-family: "Roboto Mono" monospace;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: white;
+    height: 60px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+
+}
+.ag_1{
+    background-color: #51f62c;
+    width: 71%;
+    height: 56px;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    transition: 0.7s ease-in-out;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,327%);
+
+}
+.ag_1:hover{
+    background-color: rgba(4, 177, 110, 0.947);
+}
+.lolo_3{
+    width: 6%;
+    padding: 0px 5px;
+    height: 19px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transform: translate(-60%,621%);
+    
+   
+}
+.lolo_4{
+    width: 6%;
+    padding: 0px 5px;
+    height: 19px;
+    font-size: 16px;
+    border: none;
+    background: none;
+    outline: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-60%,621%);
+    
+   
+}
+
+    
+
+.s_2{
+    display: inline;
+}
+.date_1{
+    width: 71%;
+}
+
+.mutq{
+    margin: 8px 0px 0px;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-size: 12px;
+}
+.gas{
+    margin: 0px 0px 0px 8px;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+    text-decoration: underline;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.msg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,965%);
+}
+h2{
+    text-align: center;
+    color: white;
+    border-bottom: 2px solid #adadad;
+    margin: 48px 0px;
+    width: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-68%,76%);
+}
+.lolo_3>lnput[type="radio"]{
+    font-family: roboto monospace;
+    font-size: 20px;
+    color: #ededed;
+}
+
